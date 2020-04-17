@@ -1,0 +1,24 @@
+{
+  "name": "hello-gatsby",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zoltan-nz/hello-gatsby.git",
+  "author": "Zoltan",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "format": "prettier --list-different --write '**/*.{js,jsx,ts,tsx,html,json,md,css,scss}'"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.21",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  }
+}
