@@ -1,11 +1,10 @@
-import React from 'react';
-import Header from '../components/header';
+import React, { FC } from 'react';
+import Layout from '../components/layout';
 
-export default function Flex() {
-  return (
-    <>
-      <Header />
-      <h1>Flex Page</h1>
-    </>
-  );
-}
+const Flex: FC = () => (
+  <Layout>
+    <h1>Flex Page</h1>
+  </Layout>
+);
+
+export default Flex;
