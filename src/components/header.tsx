@@ -7,7 +7,7 @@ type ListLinkProps = {
 
 const ListLink: FC<ListLinkProps> = ({ to, children }) => (
   <li className="nav-item">
-    <Link to={to} className="nav-link">
+    <Link to={to} className="nav-link" activeClassName="active">
       {children}
     </Link>
   </li>
